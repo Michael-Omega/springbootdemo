@@ -1,0 +1,441 @@
+2019-05-28 09:00:46.681  INFO 992 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Starting SpringbootdemoApplication on PC-20190108HQAU with PID 992 (C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo\target\classes started by Administrator in C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo)
+2019-05-28 09:00:46.684  INFO 992 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : No active profile set, falling back to default profiles: default
+2019-05-28 09:00:46.750  INFO 992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-28 09:00:46.750  INFO 992 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-28 09:00:48.062  INFO 992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:00:48.063  INFO 992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:00:48.089  INFO 992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19ms. Found 0 repository interfaces.
+2019-05-28 09:00:48.099  INFO 992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:00:48.100  INFO 992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:00:48.112  INFO 992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-05-28 09:00:48.156  INFO 992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:00:48.157  INFO 992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:00:48.181  INFO 992 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-05-28 09:00:48.604  INFO 992 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$f62666e1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:00:48.718  INFO 992 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$75a6b413] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:00:49.331  INFO 992 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-28 09:00:49.343  INFO 992 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:00:49.351  INFO 992 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-28 09:00:49.352  INFO 992 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-28 09:00:49.469  INFO 992 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-28 09:00:49.469  INFO 992 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2719 ms
+2019-05-28 09:00:49.612  INFO 992 --- [restartedMain] o.s.boot.web.servlet.RegistrationBean    : Servlet statViewServlet was not registered (possibly already registered?)
+2019-05-28 09:00:49.876  INFO 992 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-05-28 09:00:50.953  INFO 992 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-05-28 09:00:51.180  INFO 992 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-28 09:00:51.249  INFO 992 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-28 09:00:51.250  INFO 992 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-28 09:00:51.389  INFO 992 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-28 09:00:51.532  INFO 992 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-28 09:00:51.752  INFO 992 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-28 09:00:53.118  INFO 992 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-28 09:00:53.123  INFO 992 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-05-28 09:00:53.141  INFO 992 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2019-05-28 09:00:53.149  INFO 992 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-05-28 09:02:24.134  INFO 6928 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Starting SpringbootdemoApplication on PC-20190108HQAU with PID 6928 (C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo\target\classes started by Administrator in C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo)
+2019-05-28 09:02:24.136  INFO 6928 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : No active profile set, falling back to default profiles: default
+2019-05-28 09:02:24.207  INFO 6928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-28 09:02:24.211  INFO 6928 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-28 09:02:25.487  INFO 6928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:02:25.488  INFO 6928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:02:25.522  INFO 6928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2019-05-28 09:02:25.536  INFO 6928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:02:25.537  INFO 6928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:02:25.548  INFO 6928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-05-28 09:02:25.602  INFO 6928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:02:25.603  INFO 6928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:02:25.611  INFO 6928 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-05-28 09:02:26.133  INFO 6928 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8f71942] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:02:26.241  INFO 6928 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$68776674] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:02:26.756  INFO 6928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-28 09:02:26.766  INFO 6928 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:02:26.772  INFO 6928 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-28 09:02:26.773  INFO 6928 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-28 09:02:26.873  INFO 6928 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-28 09:02:26.873  INFO 6928 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2661 ms
+2019-05-28 09:02:26.982  INFO 6928 --- [restartedMain] o.s.boot.web.servlet.RegistrationBean    : Servlet statViewServlet was not registered (possibly already registered?)
+2019-05-28 09:02:27.237  INFO 6928 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-05-28 09:02:28.258  INFO 6928 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-05-28 09:02:28.435  INFO 6928 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-28 09:02:28.478  INFO 6928 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-28 09:02:28.479  INFO 6928 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-28 09:02:28.569  INFO 6928 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-28 09:02:28.654  INFO 6928 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-28 09:02:28.842  INFO 6928 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-28 09:02:30.253  INFO 6928 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-28 09:02:30.483  INFO 6928 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-28 09:02:30.571  INFO 6928 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-28 09:02:31.349  INFO 6928 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-28 09:02:31.370  INFO 6928 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-28 09:02:31.396  INFO 6928 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-28 09:02:31.524  INFO 6928 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:02:31.542  INFO 6928 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-28 09:02:31.545  INFO 6928 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Started SpringbootdemoApplication in 7.763 seconds (JVM running for 8.754)
+2019-05-28 09:03:10.165  INFO 6928 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-28 09:03:10.165  INFO 6928 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-28 09:03:10.184  INFO 6928 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2019-05-28 09:03:10.279  INFO 6928 --- [http-nio-8080-exec-2] cn.louiswu.config.WebLogAspect           : 	[35;4m
+SpringBoot===================================2019-05-28 09:03:10===================================
+		PATH:			http://localhost:8080/user/login
+		METHOD:			POST
+		IP:				0:0:0:0:0:0:0:1
+		CLASSMETHOD:	cn.louiswu.controller.admin.UserController.login
+		PARAMS:			{userPwd=123456, userName=admin}
+[0m
+2019-05-28 09:03:10.608  INFO 6928 --- [http-nio-8080-exec-2] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-05-28 09:03:10.609  INFO 6928 --- [http-nio-8080-exec-2] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-05-28 09:04:10.313  INFO 6928 --- [http-nio-8080-exec-1] cn.louiswu.config.WebLogAspect           : 	[35;4m
+SpringBoot===================================2019-05-28 09:04:10===================================
+		PATH:			http://localhost:8080/user/getUser
+		METHOD:			POST
+		IP:				0:0:0:0:0:0:0:1
+		CLASSMETHOD:	cn.louiswu.controller.admin.UserController.getUserInfo
+		PARAMS:			{}
+[0m
+2019-05-28 09:07:08.735  INFO 6404 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Starting SpringbootdemoApplication on PC-20190108HQAU with PID 6404 (C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo\target\classes started by Administrator in C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo)
+2019-05-28 09:07:08.737  INFO 6404 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : No active profile set, falling back to default profiles: default
+2019-05-28 09:07:08.910  INFO 6404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-28 09:07:08.911  INFO 6404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-28 09:07:10.304  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:07:10.304  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:07:10.335  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-05-28 09:07:10.369  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:07:10.370  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:07:10.380  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-05-28 09:07:10.435  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:07:10.435  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:07:10.443  INFO 6404 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-05-28 09:07:11.587  INFO 6404 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$92708a79] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:07:11.801  INFO 6404 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$11f0d7ab] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:07:12.529  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-28 09:07:12.555  INFO 6404 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:07:12.566  INFO 6404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-28 09:07:12.566  INFO 6404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-28 09:07:12.690  INFO 6404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-28 09:07:12.690  INFO 6404 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3779 ms
+2019-05-28 09:07:12.858  INFO 6404 --- [restartedMain] o.s.boot.web.servlet.RegistrationBean    : Servlet statViewServlet was not registered (possibly already registered?)
+2019-05-28 09:07:13.180  INFO 6404 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-05-28 09:07:14.387  INFO 6404 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-05-28 09:07:14.674  INFO 6404 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-28 09:07:14.750  INFO 6404 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-28 09:07:14.753  INFO 6404 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-28 09:07:14.915  INFO 6404 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-28 09:07:15.080  INFO 6404 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-28 09:07:15.364  INFO 6404 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-28 09:07:17.450  INFO 6404 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-28 09:07:17.776  INFO 6404 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-28 09:07:17.903  INFO 6404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-28 09:07:19.079  INFO 6404 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-28 09:07:19.102  INFO 6404 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-28 09:07:19.140  INFO 6404 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-28 09:07:19.317  INFO 6404 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:07:19.348  INFO 6404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-28 09:07:19.367  INFO 6404 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Started SpringbootdemoApplication in 11.012 seconds (JVM running for 12.952)
+2019-05-28 09:07:51.170  INFO 2728 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Starting SpringbootdemoApplication on PC-20190108HQAU with PID 2728 (C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo\target\classes started by Administrator in C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo)
+2019-05-28 09:07:51.171  INFO 2728 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : No active profile set, falling back to default profiles: default
+2019-05-28 09:07:51.225  INFO 2728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-28 09:07:51.226  INFO 2728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-28 09:07:55.410  INFO 6080 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Starting SpringbootdemoApplication on PC-20190108HQAU with PID 6080 (C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo\target\classes started by Administrator in C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo)
+2019-05-28 09:07:55.422  INFO 6080 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : No active profile set, falling back to default profiles: default
+2019-05-28 09:07:55.514  INFO 6080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-28 09:07:55.514  INFO 6080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-28 09:07:56.899  INFO 6080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:07:56.900  INFO 6080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:07:56.941  INFO 6080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-05-28 09:07:56.959  INFO 6080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:07:56.961  INFO 6080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:07:56.973  INFO 6080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-05-28 09:07:57.047  INFO 6080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:07:57.048  INFO 6080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:07:57.057  INFO 6080 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-05-28 09:07:57.837  INFO 6080 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$17fa329d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:07:57.987  INFO 6080 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$977a7fcf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:07:58.820  INFO 6080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-28 09:07:58.835  INFO 6080 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:07:58.843  INFO 6080 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-28 09:07:58.844  INFO 6080 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-28 09:07:58.965  INFO 6080 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-28 09:07:58.965  INFO 6080 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3451 ms
+2019-05-28 09:07:59.130  INFO 6080 --- [restartedMain] o.s.boot.web.servlet.RegistrationBean    : Servlet statViewServlet was not registered (possibly already registered?)
+2019-05-28 09:07:59.451  INFO 6080 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-05-28 09:08:00.742  INFO 6080 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-05-28 09:08:01.041  INFO 6080 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-28 09:08:01.104  INFO 6080 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-28 09:08:01.106  INFO 6080 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-28 09:08:01.275  INFO 6080 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-28 09:08:01.435  INFO 6080 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-28 09:08:01.766  INFO 6080 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-28 09:08:03.783  INFO 6080 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-28 09:08:04.126  INFO 6080 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-28 09:08:04.253  INFO 6080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-28 09:08:05.383  INFO 6080 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-28 09:08:05.405  INFO 6080 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-28 09:08:05.443  INFO 6080 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-28 09:08:05.614  INFO 6080 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:08:05.643  INFO 6080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-28 09:08:05.647  INFO 6080 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Started SpringbootdemoApplication in 10.935 seconds (JVM running for 12.088)
+2019-05-28 09:08:15.190  INFO 6080 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-28 09:08:15.191  INFO 6080 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-28 09:08:15.216  INFO 6080 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 25 ms
+2019-05-28 09:08:15.346  INFO 6080 --- [http-nio-8080-exec-2] cn.louiswu.config.WebLogAspect           : 	[35;4m
+SpringBoot===================================2019-05-28 09:08:15===================================
+		PATH:			http://localhost:8080/user/login
+		METHOD:			POST
+		IP:				0:0:0:0:0:0:0:1
+		CLASSMETHOD:	cn.louiswu.controller.admin.UserController.login
+		PARAMS:			{userPwd=123456, userName=admin}
+[0m
+2019-05-28 09:08:15.757  INFO 6080 --- [http-nio-8080-exec-2] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-05-28 09:08:15.758  INFO 6080 --- [http-nio-8080-exec-2] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-05-28 09:08:27.217  INFO 6080 --- [http-nio-8080-exec-3] cn.louiswu.config.WebLogAspect           : 	[35;4m
+SpringBoot===================================2019-05-28 09:08:27===================================
+		PATH:			http://localhost:8080/user/getUser
+		METHOD:			POST
+		IP:				0:0:0:0:0:0:0:1
+		CLASSMETHOD:	cn.louiswu.controller.admin.UserController.getUserInfo
+		PARAMS:			{}
+[0m
+2019-05-28 09:15:13.836  INFO 7836 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Starting SpringbootdemoApplication on PC-20190108HQAU with PID 7836 (C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo\target\classes started by Administrator in C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo)
+2019-05-28 09:15:13.839  INFO 7836 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : No active profile set, falling back to default profiles: default
+2019-05-28 09:15:13.890  INFO 7836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-28 09:15:13.890  INFO 7836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-28 09:15:15.666  INFO 7836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:15:15.667  INFO 7836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:15:15.709  INFO 7836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-05-28 09:15:15.727  INFO 7836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:15:15.728  INFO 7836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:15:15.743  INFO 7836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-05-28 09:15:15.835  INFO 7836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:15:15.835  INFO 7836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:15:15.847  INFO 7836 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-05-28 09:15:17.009  INFO 7836 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d2ac8cf] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:15:17.297  INFO 7836 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$ccab1601] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:15:18.371  INFO 7836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-28 09:15:18.399  INFO 7836 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:15:18.412  INFO 7836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-28 09:15:18.412  INFO 7836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-28 09:15:18.612  INFO 7836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-28 09:15:18.612  INFO 7836 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4722 ms
+2019-05-28 09:15:18.851  INFO 7836 --- [restartedMain] o.s.boot.web.servlet.RegistrationBean    : Servlet statViewServlet was not registered (possibly already registered?)
+2019-05-28 09:15:19.387  INFO 7836 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-05-28 09:15:20.768  INFO 7836 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-05-28 09:15:21.090  INFO 7836 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-28 09:15:21.200  INFO 7836 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-28 09:15:21.204  INFO 7836 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-28 09:15:21.506  INFO 7836 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-28 09:15:21.849  INFO 7836 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-28 09:15:22.347  INFO 7836 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-28 09:15:25.640  INFO 7836 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-28 09:15:26.158  INFO 7836 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-28 09:15:26.345  INFO 7836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-28 09:15:28.049  INFO 7836 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-28 09:15:28.095  INFO 7836 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-28 09:15:28.175  INFO 7836 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-28 09:15:28.542  INFO 7836 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:15:28.597  INFO 7836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-28 09:15:28.607  INFO 7836 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Started SpringbootdemoApplication in 16.24 seconds (JVM running for 17.762)
+2019-05-28 09:15:48.463  INFO 7836 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-28 09:15:48.464  INFO 7836 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-28 09:15:48.506  INFO 7836 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 42 ms
+2019-05-28 09:15:48.798  INFO 7836 --- [http-nio-8080-exec-3] cn.louiswu.config.WebLogAspect           : 	[35;4m
+SpringBoot===================================2019-05-28 09:15:48===================================
+		PATH:			http://localhost:8080/user/login
+		METHOD:			POST
+		IP:				0:0:0:0:0:0:0:1
+		CLASSMETHOD:	cn.louiswu.controller.admin.UserController.login
+		PARAMS:			{userPwd=123456, userName=admin}
+[0m
+2019-05-28 09:15:49.618  INFO 7836 --- [http-nio-8080-exec-3] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-05-28 09:15:49.621  INFO 7836 --- [http-nio-8080-exec-3] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-05-28 09:16:00.565  INFO 7836 --- [http-nio-8080-exec-4] cn.louiswu.config.WebLogAspect           : 	[35;4m
+SpringBoot===================================2019-05-28 09:16:00===================================
+		PATH:			http://localhost:8080/user/getUser
+		METHOD:			POST
+		IP:				0:0:0:0:0:0:0:1
+		CLASSMETHOD:	cn.louiswu.controller.admin.UserController.getUserInfo
+		PARAMS:			{}
+[0m
+2019-05-28 09:17:46.579  INFO 5112 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Starting SpringbootdemoApplication on PC-20190108HQAU with PID 5112 (C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo\target\classes started by Administrator in C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo)
+2019-05-28 09:17:46.580  INFO 5112 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : No active profile set, falling back to default profiles: default
+2019-05-28 09:17:46.613  INFO 5112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-05-28 09:17:46.614  INFO 5112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-05-28 09:17:48.264  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:17:48.265  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:17:48.300  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+2019-05-28 09:17:48.315  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:17:48.317  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:17:48.333  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2019-05-28 09:17:48.402  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:17:48.402  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:17:48.413  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-05-28 09:17:48.958  INFO 5112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4e68fa7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:17:49.086  INFO 5112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$cde947ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:17:49.778  INFO 5112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-28 09:17:49.794  INFO 5112 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:17:49.803  INFO 5112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-28 09:17:49.803  INFO 5112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-28 09:17:49.930  INFO 5112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-28 09:17:49.931  INFO 5112 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3317 ms
+2019-05-28 09:17:50.120  INFO 5112 --- [restartedMain] o.s.boot.web.servlet.RegistrationBean    : Servlet statViewServlet was not registered (possibly already registered?)
+2019-05-28 09:17:50.384  INFO 5112 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-05-28 09:17:51.423  INFO 5112 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2019-05-28 09:17:51.642  INFO 5112 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-28 09:17:51.716  INFO 5112 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.9.Final}
+2019-05-28 09:17:51.717  INFO 5112 --- [restartedMain] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2019-05-28 09:17:51.855  INFO 5112 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-05-28 09:17:52.007  INFO 5112 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-28 09:17:52.254  INFO 5112 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-28 09:17:54.404  INFO 5112 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-28 09:17:54.716  INFO 5112 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-28 09:17:54.842  INFO 5112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-28 09:17:55.974  INFO 5112 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-28 09:17:56.000  INFO 5112 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-28 09:17:56.045  INFO 5112 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-28 09:17:56.237  INFO 5112 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:17:56.265  INFO 5112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-28 09:17:56.270  INFO 5112 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Started SpringbootdemoApplication in 10.086 seconds (JVM running for 11.322)
+2019-05-28 09:18:12.295  INFO 5112 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-28 09:18:12.295  INFO 5112 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-28 09:18:12.321  INFO 5112 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 26 ms
+2019-05-28 09:18:12.438  INFO 5112 --- [http-nio-8080-exec-1] cn.louiswu.config.WebLogAspect           : 	[35;4m
+SpringBoot===================================2019-05-28 09:18:12===================================
+		PATH:			http://localhost:8080/user/login
+		METHOD:			POST
+		IP:				0:0:0:0:0:0:0:1
+		CLASSMETHOD:	cn.louiswu.controller.admin.UserController.login
+		PARAMS:			{userPwd=123456, userName=admin}
+[0m
+2019-05-28 09:18:12.835  INFO 5112 --- [http-nio-8080-exec-1] io.lettuce.core.EpollProvider            : Starting without optional epoll library
+2019-05-28 09:18:12.838  INFO 5112 --- [http-nio-8080-exec-1] io.lettuce.core.KqueueProvider           : Starting without optional kqueue library
+2019-05-28 09:18:15.482  INFO 5112 --- [Thread-22] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-28 09:18:15.484  INFO 5112 --- [Thread-22] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-28 09:18:15.490  INFO 5112 --- [Thread-22] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed
+2019-05-28 09:18:17.492  INFO 5112 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Starting SpringbootdemoApplication on PC-20190108HQAU with PID 5112 (C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo\target\classes started by Administrator in C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo)
+2019-05-28 09:18:17.492  INFO 5112 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : No active profile set, falling back to default profiles: default
+2019-05-28 09:18:17.990  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:18:17.990  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:18:18.001  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-05-28 09:18:18.005  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:18:18.006  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:18:18.009  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3ms. Found 0 repository interfaces.
+2019-05-28 09:18:18.022  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:18:18.022  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:18:18.026  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4ms. Found 0 repository interfaces.
+2019-05-28 09:18:18.114  INFO 5112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4e68fa7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:18:18.129  INFO 5112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$cde947ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:18:18.315  INFO 5112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-28 09:18:18.316  INFO 5112 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:18:18.317  INFO 5112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-28 09:18:18.317  INFO 5112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-28 09:18:18.330  INFO 5112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-28 09:18:18.330  INFO 5112 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 834 ms
+2019-05-28 09:18:18.389  INFO 5112 --- [restartedMain] o.s.boot.web.servlet.RegistrationBean    : Servlet statViewServlet was not registered (possibly already registered?)
+2019-05-28 09:18:18.461  INFO 5112 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-05-28 09:18:19.293  INFO 5112 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} inited
+2019-05-28 09:18:19.392  INFO 5112 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-28 09:18:19.402  INFO 5112 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-28 09:18:19.414  INFO 5112 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-28 09:18:20.324  INFO 5112 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-28 09:18:20.456  INFO 5112 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-28 09:18:20.498  INFO 5112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-28 09:18:20.897  INFO 5112 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-28 09:18:20.899  INFO 5112 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-28 09:18:20.906  INFO 5112 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-28 09:18:20.945  INFO 5112 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:18:20.947  INFO 5112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-28 09:18:20.951  INFO 5112 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Started SpringbootdemoApplication in 3.503 seconds (JVM running for 36.002)
+2019-05-28 09:18:20.955  INFO 5112 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-05-28 09:18:24.707  INFO 5112 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-28 09:18:24.709  INFO 5112 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-28 09:18:24.750  INFO 5112 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 41 ms
+2019-05-28 09:18:24.763  INFO 5112 --- [http-nio-8080-exec-2] cn.louiswu.config.WebLogAspect           : 	[35;4m
+SpringBoot===================================2019-05-28 09:18:24===================================
+		PATH:			http://localhost:8080/user/login
+		METHOD:			POST
+		IP:				0:0:0:0:0:0:0:1
+		CLASSMETHOD:	cn.louiswu.controller.admin.UserController.login
+		PARAMS:			{userPwd=123456, userName=admin}
+[0m
+2019-05-28 09:18:36.250  INFO 5112 --- [http-nio-8080-exec-4] cn.louiswu.config.WebLogAspect           : 	[35;4m
+SpringBoot===================================2019-05-28 09:18:36===================================
+		PATH:			http://localhost:8080/user/getUser
+		METHOD:			POST
+		IP:				0:0:0:0:0:0:0:1
+		CLASSMETHOD:	cn.louiswu.controller.admin.UserController.getUserInfo
+		PARAMS:			{}
+[0m
+2019-05-28 09:28:01.848  INFO 5112 --- [Thread-38] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-05-28 09:28:01.850  INFO 5112 --- [Thread-38] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-05-28 09:28:01.886  INFO 5112 --- [Thread-38] com.alibaba.druid.pool.DruidDataSource   : {dataSource-2} closed
+2019-05-28 09:28:03.404  INFO 5112 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Starting SpringbootdemoApplication on PC-20190108HQAU with PID 5112 (C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo\target\classes started by Administrator in C:\Users\Administrator\Desktop\hs-web-hsweb-framework-3.0.8-release-0-gc7ff97e\SpringBootDemo)
+2019-05-28 09:28:03.405  INFO 5112 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : No active profile set, falling back to default profiles: default
+2019-05-28 09:28:04.092  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:28:04.092  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:28:04.106  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
+2019-05-28 09:28:04.115  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:28:04.115  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:28:04.120  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-05-28 09:28:04.193  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-05-28 09:28:04.193  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-05-28 09:28:04.201  INFO 5112 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2019-05-28 09:28:04.291  INFO 5112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4e68fa7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:28:04.324  INFO 5112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.hateoas.config.HateoasConfiguration' of type [org.springframework.hateoas.config.HateoasConfiguration$$EnhancerBySpringCGLIB$$cde947ae] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-05-28 09:28:04.748  INFO 5112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-28 09:28:04.749  INFO 5112 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:28:04.750  INFO 5112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-28 09:28:04.764  INFO 5112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.17]
+2019-05-28 09:28:04.789  INFO 5112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-28 09:28:04.789  INFO 5112 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1382 ms
+2019-05-28 09:28:04.856  INFO 5112 --- [restartedMain] o.s.boot.web.servlet.RegistrationBean    : Servlet statViewServlet was not registered (possibly already registered?)
+2019-05-28 09:28:04.920  INFO 5112 --- [restartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2019-05-28 09:28:06.089  INFO 5112 --- [restartedMain] com.alibaba.druid.pool.DruidDataSource   : {dataSource-3} inited
+2019-05-28 09:28:06.208  INFO 5112 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-05-28 09:28:06.223  INFO 5112 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-05-28 09:28:06.238  INFO 5112 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-05-28 09:28:07.126  INFO 5112 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-05-28 09:28:07.258  INFO 5112 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-28 09:28:07.300  INFO 5112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-05-28 09:28:07.795  INFO 5112 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2019-05-28 09:28:07.796  INFO 5112 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2019-05-28 09:28:07.803  INFO 5112 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2019-05-28 09:28:07.841  INFO 5112 --- [restartedMain] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8080"]
+2019-05-28 09:28:07.843  INFO 5112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-28 09:28:07.844  INFO 5112 --- [restartedMain] cn.louiswu.SpringbootdemoApplication     : Started SpringbootdemoApplication in 4.477 seconds (JVM running for 622.874)
+2019-05-28 09:28:07.848  INFO 5112 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-05-28 09:28:16.909  INFO 5112 --- [http-nio-8080-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-28 09:28:16.910  INFO 5112 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-28 09:28:16.917  INFO 5112 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2019-05-28 09:28:16.931  INFO 5112 --- [http-nio-8080-exec-5] cn.louiswu.config.WebLogAspect           : 	[35;4m
+SpringBoot===================================2019-05-28 09:28:16===================================
+		PATH:			http://localhost:8080/user/logout
+		METHOD:			POST
+		IP:				0:0:0:0:0:0:0:1
+		CLASSMETHOD:	cn.louiswu.controller.admin.UserController.Logout
+		PARAMS:			{}
+[0m
+2019-05-28 09:28:34.789  INFO 5112 --- [http-nio-8080-exec-1] cn.louiswu.config.WebLogAspect           : 	[35;4m
+SpringBoot===================================2019-05-28 09:28:34===================================
+		PATH:			http://localhost:8080/user/getUser
+		METHOD:			POST
+		IP:				0:0:0:0:0:0:0:1
+		CLASSMETHOD:	cn.louiswu.controller.admin.UserController.getUserInfo
+		PARAMS:			{}
+[0m
