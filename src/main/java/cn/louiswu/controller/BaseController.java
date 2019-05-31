@@ -20,11 +20,11 @@ public class BaseController{
     @Resource
     private JwtUtil jwtUtil;
 
-    public User getUser(){
-        if (!redisUtils.hasKey("token"))
-            return null;
-        String token = redisUtils.get("token").toString();
-        Map info =  jwtUtil.validateToken(token);
-        return userService.getUserByUserName(info.get("username").toString());
-    }
+//    public User getUser(){
+//        if (!redisUtils.hasKey("token"))
+//            return null;
+//        String token = redisUtils.get("token").toString();
+//        Map info =  jwtUtil.validateToken(token);
+//        return userService.getUserByUserName(info.get("username").toString());
+//    }
 }

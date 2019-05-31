@@ -7,7 +7,7 @@ spring:
   session:
     store-type: none
   datasource:
-    name: mysql_test
+    name: mysql
     type: com.alibaba.druid.pool.DruidDataSource
     #druid相关配置
     druid:
@@ -36,13 +36,18 @@ spring:
       pool-prepared-statements: false
       max-pool-prepared-statement-per-connection-size: 20
 
+#templates
   thymeleaf:
     prefix: classpath:/templates/
     check-template-location: true
     suffix: .html
     encoding: UTF-8
-    mode: LEGACYHTML5
+    mode: HTML
     cache: true
+    servlet:
+      content-type: text/html
+
+
   aop:
     auto: true
     proxy-target-class: true

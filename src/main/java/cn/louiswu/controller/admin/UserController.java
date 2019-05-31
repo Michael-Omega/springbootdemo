@@ -3,11 +3,14 @@ package cn.louiswu.controller.admin;
 
 import cn.louiswu.bean.User;
 import cn.louiswu.bean.result.Result;
+import cn.louiswu.config.anno.PassToken;
+import cn.louiswu.config.anno.UserLoginToken;
 import cn.louiswu.service.UserService;
 import cn.louiswu.util.JwtUtil;
 import cn.louiswu.util.RedisUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -34,31 +37,25 @@ public class UserController extends BaseController {
     private UserService userService;
     @Resource
     private JwtUtil jwtUtil;
-    @Resource
-    private RedisUtils redisUtils;
-
 
     @PostMapping("/login")
-    public Result login(User userParams){
+    public Result Login(User userParams){
         Result result = new Result();
         User user = isValidPassword(userParams);
-        if(null != user){
-            String jwt = jwtUtil.generateToken(userParams.getUserName());
-            System.out.println("jwt="+jwt);
-            result.setCode(1);
-            result.setMsg("成功");
-            //将JWTtoken存入redis
-            redisUtils.set("token","Bearer "+jwt,7200L);
-            Map<Object,Object> datas = new HashMap<>();
-            datas.put("jwt",jwt);
-            datas.put("user",user);
-            result.setObj(datas);
-        }else {
+        if (null == user){
             result.setCode(0);
-            result.setMsg("失败");
+            result.setMsg("用户名或者密码错误");
+        }else {
+            result.setCode(1);
+            result.setMsg("登录成功");
+            Map data = new HashMap();
+            data.put("user",user);
+            data.put("token",jwtUtil.getToken(user));
+            result.setObj(data);
         }
         return result;
     }
+
 
     public User isValidPassword(User userParams){
         User user =  userService.getUserByUserName(userParams.getUserName());
@@ -68,54 +65,11 @@ public class UserController extends BaseController {
         return null;
     }
 
-    @PostMapping("/getToken")
-    public Result getToken(){
-        Result result = new Result();
-        try {
-            System.err.println(redisUtils.hasKey("token"));
-            String token = (String) redisUtils.get("token");
-            Map<String, Object> data = jwtUtil.validateToken(token);
-            result.setCode(1);
-            result.setMsg("成功");
-            result.setObj(data);
-        } catch (Exception e) {
-            result.setCode(0);
-            result.setMsg("失败");
-            logger.error("获取失败{}",e);
-        }
-        return  result;
+
+    @RequestMapping("/getMessage")
+    @UserLoginToken
+    public String getMessage(){
+        return "你已通过验证";
     }
-
-    @RequestMapping("logout")
-    public Result Logout(){
-        Result result = new Result();
-        try {
-
-            redisUtils.del("token");
-            result.setCode(1);
-            result.setMsg("退出成功");
-        } catch (Exception e) {
-            result.setCode(0);
-            result.setMsg(e.getMessage());
-            logger.error("退出登录失败{}",e);
-        }
-        return result;
-
-    }
-
-    @RequestMapping("/getUser")
-    public Result getUserInfo(){
-        Result result = new Result();
-        try {
-            result.setObj(1);
-            result.setMsg("成功");
-            result.setObj(getUser());
-        }catch (Exception e){
-            result.setObj(0);
-            result.setMsg("失败");
-        }
-        return result;
-    }
-
 }
 
