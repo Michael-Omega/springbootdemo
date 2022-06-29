@@ -1,0 +1,36 @@
+2022-06-29 11:40:00.846 ERROR 52476 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisTemplate in com.project.util.RedisUtils required a bean of type 'org.springframework.data.redis.core.RedisTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.core.RedisTemplate' in your configuration.
+
+2022-06-29 11:42:08.789 ERROR 55368 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field redisTemplate in com.project.util.RedisUtils required a bean of type 'org.springframework.data.redis.core.RedisTemplate' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.data.redis.core.RedisTemplate' in your configuration.
+

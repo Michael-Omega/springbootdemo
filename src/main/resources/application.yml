@@ -1,11 +1,8 @@
-
+#项目
 server:
-  port: 8080
+  port: 8085
 
 spring:
-#  redis配置
-  session:
-    store-type: none
   datasource:
     name: mysql
     type: com.alibaba.druid.pool.DruidDataSource
@@ -15,38 +12,50 @@ spring:
       filters: stat
       driver-class-name: com.mysql.cj.jdbc.Driver
       #基本属性
-      url: jdbc:mysql://47.102.99.193:3306/LouisAdmin?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
+      url: jdbc:mysql://47.107.164.64:3306/springboot?useUnicode=true&characterEncoding=UTF-8&allowMultiQueries=true
       username: root
       password: LouisWu1028
       #配置初始化大小/最小/最大
-      initial-size: 1
-      min-idle: 1
-      max-active: 20
-      #获取连接等待超时时间
-      max-wait: 60000
-      #间隔多久进行一次检测，检测需要关闭的空闲连接
+      # 初始连接数
+      initialSize: 5
+      # 最小连接池数量
+      minIdle: 10
+      # 最大连接池数量
+      maxActive: 20
+      # 配置获取连接等待超时的时间
+      maxWait: 60000
+      # 配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
       time-between-eviction-runs-millis: 60000
-      #一个连接在池中最小生存的时间
-      min-evictable-idle-time-millis: 300000
-      validation-query: SELECT 'x'
-      test-while-idle: true
-      test-on-borrow: false
-      test-on-return: false
-      #打开PSCache，并指定每个连接上PSCache的大小。oracle设为true，mysql设为false。分库分表较多推荐设置为false
-      pool-prepared-statements: false
-      max-pool-prepared-statement-per-connection-size: 20
-
-#templates
-  thymeleaf:
-    prefix: classpath:/templates/
-    check-template-location: true
-    suffix: .html
-    encoding: UTF-8
-    mode: HTML
-    cache: true
-    servlet:
-      content-type: text/html
-
+#      # 配置一个连接在池中最小生存的时间，单位是毫秒
+#      maxIdle是Druid为了方便DBCP用户迁移而增加的，maxIdle是一个混乱的概念。连接池只应该有maxPoolSize和minPoolSize，druid只保留了maxActive和minIdle，分别相当于maxPoolSize和minPoolSize。
+#      min-evictable-idle-time-millis: 300000
+#      # 配置一个连接在池中最大生存的时间，单位是毫秒
+#      max-evictable-idle-time-millis: 2000000
+      # 配置检测连接是否有效
+      validationQuery: SELECT 1 FROM DUAL
+      testWhileIdle: true
+      testOnBorrow: false
+      testOnReturn: false
+      webStatFilter:
+        enabled: true
+      statViewServlet:
+        enabled: true
+        # 设置白名单，不填则允许所有访问
+        allow:
+        url-pattern: /druid/*
+        # 控制台管理用户名和密码
+        login-username: admin
+        login-password: 123456
+      filter:
+        stat:
+          enabled: true
+          # 慢SQL记录
+          log-slow-sql: true
+          slow-sql-millis: 1000
+          merge-sql: true
+        wall:
+          config:
+            multi-statement-allow: true
 
   aop:
     auto: true
@@ -58,47 +67,24 @@ spring:
 #redis
   redis:
     host: localhost
-    password: LouisWu1028
     port: 6379
-    jedis:
-      pool:
-        max-active: 20
-        max-idle: 500
-        max-wait: -1
-        min-idle: 5
-
-
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: cn.louiswu.bean
-
-
-#pagehelper
-#pagehelper:
-#  helperDialect: mysql
-#  reasonable: true
-#  supportMethodsArguments: true
-#  params: count=countSql
-#  returnPageInfo: check
 
 logging:
   config:
   classpath: logback-springboot.xml
 
-
 # 配置mybatis-plus
 mybatis-plus:
   # 配置扫描xml
   mapper-locations:
-    - classpath:mapper/*.xml
+    - classpath:mybatis/xml/*.xml
   # 实体扫描，多个package用逗号或者分号分隔
-  type-aliases-package: cn.louiswu.bean
+  type-aliases-package: com.project.bean
   global-config:
     # 逻辑删除配置
     logic-delete-value: 0
     logic-not-delete-value: 1
-    sql-injector: com.baomidou.mybatisplus.mapper.LogicSqlInjector
-
+  config-location: mybatis/mybatis-config.xml
 
 #swagger开关
 swagger:

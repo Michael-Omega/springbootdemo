@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.project.mapper.ItemMapper">
+  <resultMap id="BaseResultMap" type="com.project.bean.Item">
+    <!--@mbg.generated-->
+    <!--@Table item-->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="companyid" jdbcType="INTEGER" property="companyid" />
+    <result column="platformid" jdbcType="INTEGER" property="platformid" />
+    <result column="code" jdbcType="VARCHAR" property="code" />
+    <result column="syncnum" jdbcType="INTEGER" property="syncnum" />
+    <result column="syncstate" jdbcType="INTEGER" property="syncstate" />
+    <result column="synctime" jdbcType="TIMESTAMP" property="synctime" />
+    <result column="productid" jdbcType="BIGINT" property="productid" />
+    <result column="skuid" jdbcType="VARCHAR" property="skuid" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, companyid, platformid, code, syncnum, syncstate, synctime, productid, skuid, 
+    `name`
+  </sql>
+</mapper>
